@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imaagem de Fundo</title>
     <style>
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
         div.quadrado {
             border: 1px solid black;
             border-radius: 10px;
@@ -12,6 +16,18 @@
             width: 300px;
             height: 300px;
             display: inline-block;
+        }
+
+        div#q1 {
+            background-color: lightgreen;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, rgb(0, 183, 255), rgb(0, 255, 76));
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern003.png');
         }
     </style>
 </head>
