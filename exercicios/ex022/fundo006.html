@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
+            /* 
+                background-color: black;
+                background-image: url('imagens/wallpaper002.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            */
+            /*
+                Shorthand - background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
@@ -26,6 +36,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum labore non at? Vel iure vero tempore, id tempora accusantium et dolorem molestias, soluta cum modi obcaecati cupiditate expedita quia minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid fugit suscipit repellat sequi quasi nam rem ut quas doloremque nulla, expedita consectetur facere odio debitis nisi dolore! Quo, cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores architecto repellendus eligendi ducimus ratione nisi quasi tempora fuga facere doloremque inventore ipsam quae error ullam, impedit, iste pariatur perspiciatis? Labore.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum labore non at? Vel iure vero tempore, id tempora accusantium et dolorem molestias, soluta cum modi obcaecati cupiditate expedita quia minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid fugit suscipit repellat sequi quasi nam rem ut quas doloremque nulla, expedita consectetur facere odio debitis nisi dolore! Quo, cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores architecto repellendus eligendi ducimus ratione nisi quasi tempora fuga facere doloremque inventore ipsam quae error ullam, impedit, iste pariatur perspiciatis? Labore.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum labore non at? Vel iure vero tempore, id tempora accusantium et dolorem molestias, soluta cum modi obcaecati cupiditate expedita quia minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid fugit suscipit repellat sequi quasi nam rem ut quas doloremque nulla, expedita consectetur facere odio debitis nisi dolore! Quo, cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores architecto repellendus eligendi ducimus ratione nisi quasi tempora fuga facere doloremque inventore ipsam quae error ullam, impedit, iste pariatur perspiciatis? Labore.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum labore non at? Vel iure vero tempore, id tempora accusantium et dolorem molestias, soluta cum modi obcaecati cupiditate expedita quia minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid fugit suscipit repellat sequi quasi nam rem ut quas doloremque nulla, expedita consectetur facere odio debitis nisi dolore! Quo, cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores architecto repellendus eligendi ducimus ratione nisi quasi tempora fuga facere doloremque inventore ipsam quae error ullam, impedit, iste pariatur perspiciatis? Labore.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum labore non at? Vel iure vero tempore, id tempora accusantium et dolorem molestias, soluta cum modi obcaecati cupiditate expedita quia minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid fugit suscipit repellat sequi quasi nam rem ut quas doloremque nulla, expedita consectetur facere odio debitis nisi dolore! Quo, cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores architecto repellendus eligendi ducimus ratione nisi quasi tempora fuga facere doloremque inventore ipsam quae error ullam, impedit, iste pariatur perspiciatis? Labore.</p>
     </main>
 </body>
