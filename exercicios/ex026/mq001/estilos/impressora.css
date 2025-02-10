@@ -9,7 +9,7 @@
 
 html {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 
@@ -19,7 +19,7 @@ menu {
 
 article {
     width: 100%;
-}
+} 
 
 article::after {
     content: 'Esse artigo foi impresso atraves do site';
